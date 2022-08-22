@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">KIDZO</string>
+    <string name="alphabet">Alphabets</string>
+    <string name="rhymes">Rhymes</string>
+    <string name="puzzles">Puzzles</string>
+    <string name="tic_tic">Tic Tac Toe</string>
+    <string name="math_quiz">Math Quiz</string>
+    <string name="quiz">Quiz</string>
+    <string name="greet">Hey baby!</string>
+    <string name="english">English</string>
+    <string name="bangla">Bangla</string>
+    <string name="maths">Maths</string>
+    <string name="counting">1 - 100</string>
+    <string name="bangla_counting">১ - ১০০</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="action_new_game">New Game</string>
+    <string name="action_help">Help</string>
+
+</resources>

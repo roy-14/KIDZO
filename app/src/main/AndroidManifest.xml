@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.kidzo">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/read"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".MathQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TicTac.TicTacActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BanglaRhymeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnglishRhymeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MonthsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DaysActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MathsBanglaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MathsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MathsAlphabetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnglishAlphabetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PuzzleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RhymesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlphabetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

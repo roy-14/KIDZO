@@ -1,0 +1,40 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#6200EE</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CalendarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--selected Item color-->
+        <item name="colorControlActivated">@color/red</item>
+        <!-- arrow bordercolor(<>)-->
+        <!-- Highlight item color-->
+        <item name="colorControlHighlight">#d50000</item>
+        <!--Calender Background color -->
+        <item name="android:windowBackground">@color/blue</item>
+        <!-- Ok Cancel Color-->
+        <item name="android:textColor">#4CAF50</item>
+        <!-- Week TextColor-->
+        <item name="android:textColorSecondary">@color/red</item>
+        <!-- Calender Number color arrow color (< >) -->
+        <item name="android:textColorPrimary">#fff</item>
+        <!--day , month-->
+        <item name="android:textColorPrimaryInverse">#fff</item>
+        <!-- year-->
+        <item name="android:textColorSecondaryInverse">#EFEAEA</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

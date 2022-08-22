@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EnglishRhymeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:id="@+id/parentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtPoem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Twinkle, twinkle, little star,
+                                    How I wonder what you are.
+                                    Up above the world so high,
+                                    Like a diamond in the sky.
+                                    Twinkle, twinkle, little star,
+                                    How I wonder what you are!
+
+                                    When the blazing sun is gone,
+                                    When he nothing shines upon,
+                                    Then you show your little light,
+                                    Twinkle, twinkle, all the night.
+                                    Twinkle, twinkle, little star,
+                                    How I wonder what you are!"
+                    android:shadowColor="#2196F3"
+                    android:textSize="25sp"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:textStyle="bold"
+                    android:textColor="#FF5722"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/layout_corner4"
+            android:text="Previous"
+            android:layout_marginLeft="20dp"
+            android:textColor="#9671DA" />
+
+        <ImageView
+            android:id="@+id/imgSpeak"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_volume_up_24"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/layout_corner1"
+            android:layout_centerVertical="true"
+            android:text="Next"
+            android:layout_marginRight="20dp"
+            android:textColor="#4EDACD" />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
